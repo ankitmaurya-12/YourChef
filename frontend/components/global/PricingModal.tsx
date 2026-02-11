@@ -40,7 +40,7 @@ export default function PricingModal({
       </DialogTrigger>
       
       <DialogContent className="sm:max-w-5xl max-h-[90vh] p-0 overflow-hidden">
-        <div className="p-4 sm:p-6 lg:p-8">
+        <div className="sm:p-6 lg:p-8">
           <DialogTitle className="sr-only">Subscription Plan</DialogTitle>
             <PricingSection />
         </div>
